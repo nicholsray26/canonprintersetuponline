@@ -112,7 +112,7 @@ nav a:hover::after {
 }
 
 .hero-text button {
-  background: #2692d0;
+  background: #052AA1;
   color: #fff;
   border: none;
   padding: 12px 24px;
@@ -240,6 +240,24 @@ footer {
   .footer-grid {
     grid-template-columns: 1fr;
   }
+.hero-text {
+  max-width: 600px;
+  width: 100%;
+}
+.search-box {
+  width: 15rem !important;
+}
+.hero {
+  padding: 20px !important;
+}
+.hero img{
+  width: 100% !important;
+}
+.tabs{margin-left: 20px; margin-right: 20px;
+}
+.header-container{display: none !important;}
+
+.main-nav{display: none !important;}
 
   .top-bar {
     flex-direction: column;
@@ -304,7 +322,7 @@ footer {
 
 /* Sign In */
 .signin {
-  background: #E70000;
+  background: #000;
   color: #fff;
   padding: 9px 18px;
   font-weight: bold;
@@ -315,7 +333,7 @@ footer {
 
 /* NAVIGATION BAR */
 .main-nav {
-  background: #E70000;
+  background: #052AA1;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -457,15 +475,6 @@ footer {
   max-width: 800px; /* Increased max width */
   width: 100%;
 }
-.logo-img {
-  width: 100px;
-  height: 100px;
-  object-fit: contain; /* Optional, maintains aspect ratio */
-}
 .animate-icon {
   animation: pulse 1.4s infinite ease-in-out;
-}
-@keyframes pulse {
-  0%, 100% { transform: translateX(0); }
-  50% { transform: translateX(6px); }
 }
